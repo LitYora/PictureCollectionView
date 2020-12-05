@@ -14,6 +14,7 @@ struct ServerJSON: Decodable{
 
 struct MLines: Decodable{
     var name: String
+    var hex_color: String
     var stations: [MStations]
 }
 

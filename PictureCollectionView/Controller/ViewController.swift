@@ -14,7 +14,6 @@ class ViewController: UIViewController {
     
     
     var lineStation = [MLines]()
-    var colors = [UIColor.green, UIColor.magenta, UIColor.systemPink, UIColor.yellow, UIColor.orange]
     
     private let spacing: CGFloat = 10
     
@@ -73,7 +72,8 @@ extension ViewController: UICollectionViewDelegate, UICollectionViewDataSource {
             fatalError("Invalid Cell kind")
         }
         
-        cell.configure(with: colors, lineStation: lineStation, indexPath: indexPath.row)
+        cell.configure(with: UIColor.fromHex(lineStation[indexPath.row].hex_color), lineStation: lineStation, indexPath: indexPath.row)
+
         return  cell
     }
 }

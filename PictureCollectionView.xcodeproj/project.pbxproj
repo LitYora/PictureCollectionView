@@ -17,6 +17,7 @@
 		9D06B43B257793D5003C63FF /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D06B43A257793D5003C63FF /* NetworkService.swift */; };
 		9D06B44525779474003C63FF /* CollectionViewImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D06B44425779474003C63FF /* CollectionViewImage.swift */; };
 		9DCEA62D25795E260077A3F1 /* StationTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DCEA62C25795E260077A3F1 /* StationTableViewController.swift */; };
+		9DCEA630257BA8880077A3F1 /* UIColor_hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DCEA62F257BA8880077A3F1 /* UIColor_hex.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		9D06B43A257793D5003C63FF /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
 		9D06B44425779474003C63FF /* CollectionViewImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewImage.swift; sourceTree = "<group>"; };
 		9DCEA62C25795E260077A3F1 /* StationTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationTableViewController.swift; sourceTree = "<group>"; };
+		9DCEA62F257BA8880077A3F1 /* UIColor_hex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor_hex.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +124,7 @@
 		9D06B4432577941B003C63FF /* View */ = {
 			isa = PBXGroup;
 			children = (
+				9DCEA62F257BA8880077A3F1 /* UIColor_hex.swift */,
 				9D06B44425779474003C63FF /* CollectionViewImage.swift */,
 			);
 			path = View;
@@ -202,6 +205,7 @@
 				9D06B434257793A6003C63FF /* MStations.swift in Sources */,
 				9DCEA62D25795E260077A3F1 /* StationTableViewController.swift in Sources */,
 				9D06B4212577930F003C63FF /* ViewController.swift in Sources */,
+				9DCEA630257BA8880077A3F1 /* UIColor_hex.swift in Sources */,
 				9D06B41D2577930F003C63FF /* AppDelegate.swift in Sources */,
 				9D06B41F2577930F003C63FF /* SceneDelegate.swift in Sources */,
 			);

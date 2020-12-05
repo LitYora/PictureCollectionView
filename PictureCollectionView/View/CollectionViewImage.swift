@@ -15,8 +15,9 @@ class CollectionViewImage: UICollectionViewCell {
     @IBOutlet weak var textLabel: UILabel!
     
     
-    func configure(with colors: [UIColor], lineStation: [MLines], indexPath: Int) {
-        imageView.backgroundColor = colors[Int.random(in: 0..<5)]
+    func configure(with colors: UIColor, lineStation: [MLines], indexPath: Int) {
+
+        imageView.backgroundColor = colors
         textLabel.text = lineStation[indexPath].name
     }
 }
